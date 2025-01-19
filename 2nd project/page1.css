@@ -1,0 +1,85 @@
+body{
+    font-family: 'Roboto',sans-serif;
+
+    background-color: rgb(244, 234, 255);
+}
+
+ol{
+    list-style: none;
+}
+
+img{
+    width: 300px;
+    /* height:150px; */
+}
+
+main{
+    padding: 32px;
+    width:700px;
+    margin:32px auto;
+    border-radius: 8px;
+    background-color: rgb(122, 74, 218);
+    color: rgb(248, 241, 255);
+}
+
+main h2{
+    color: white;
+}
+
+h1{
+    font-size: 52px;
+    color: rgb(88, 49, 196);
+}
+
+header{
+    padding: 32px;
+    text-align: center;
+}
+
+li{
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent;
+}
+
+.extra-important{
+    color: rgb(255, 237, 177);
+    border-left: 5px solid rgb(247, 209, 85);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(36, 3, 102) ;
+    background-color:rgb(255, 237, 177) ;
+    padding:2px 6px ;
+    border-radius:4px;
+}
+
+a:hover,a:active{
+    background-color: rgb(250, 201, 39);
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    color: rgb(131, 113, 149);
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+footer a{
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: rgb(250, 201, 39);
+    color: rgb(66, 51, 4);
+}
+
+footer a:hover , footer a:active{
+    background-color: rgb(255, 186, 58);
+}
+
+span{
+    text-decoration: bold;
+}
